@@ -13,6 +13,7 @@ function Meanings(props) {
           <div key={index}>
             <p>
               {definition.definition}
+
               <br />
               <em>{definition.example}</em>
             </p>
