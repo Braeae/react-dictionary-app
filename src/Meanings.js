@@ -7,21 +7,16 @@ function Meanings(props) {
   console.log(props.meanings.definitions[0].definition);
   return (
     <div className="Meanings">
-      <h4>
-        <strong>{props.meanings.partOfSpeech}</strong>
-      </h4>
+      <h4>{props.meanings.partOfSpeech}</h4>
 
       {props.meanings.definitions.map(function (definition, index) {
         return (
           <div className="Defintions" key={index}>
-            <p>
-              {definition.definition}
-
-              <br />
+            <p>{definition.definition}</p>
+            <p className="Examples">
               <em>{definition.example}</em>
-
-              <Synonyms synonyms={definition.synonyms} />
             </p>
+            <Synonyms synonyms={definition.synonyms} />
           </div>
         );
       })}

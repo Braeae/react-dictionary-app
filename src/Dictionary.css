@@ -11,7 +11,7 @@
 
 .Dictionary section {
   background: rgba(243, 241, 241, 0.726);
-  border: 1px solid black;
+  border: 1px solid transparent;
   border-radius: 12px;
   margin: 20px auto;
   padding: 20px;
