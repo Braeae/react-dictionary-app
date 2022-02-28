@@ -1,16 +1,17 @@
 import React from "react";
+import "./Dictionary.css";
 
 function Phonetic(props) {
   console.log(props.phonetic);
 
   if (props.phonetic.audio) {
     return (
-      <div className="Phonetic">
+      <span className="Phonetic">
         <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
           Listen{" "}
-        </a>
+        </a>{" "}
         <p>{props.phonetic.text}</p>
-      </div>
+      </span>
     );
   } else {
     return <p>{props.phonetic.text}</p>;

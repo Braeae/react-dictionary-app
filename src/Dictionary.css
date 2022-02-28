@@ -1,0 +1,29 @@
+.Dictionary .Search-Form {
+  background-color: #ff2c79;
+  margin: 0 auto;
+  padding-top: 160px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+.Dictionary section {
+  background: rgba(243, 241, 241, 0.726);
+  border: 1px solid black;
+  border-radius: 12px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 4px;
+}
+
+.Dictionary input {
+  border-radius: 20px;
+  height: 40px;
+  width: 50%;
+  padding-left: 12px;
+  padding-right: 6px;
+  outline: none;
+  font-size: 20px;
+}

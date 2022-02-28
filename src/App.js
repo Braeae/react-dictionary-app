@@ -5,7 +5,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      <Dictionary />
+      <div className="container">
+        <Dictionary />
+      </div>
     </div>
   );
 }

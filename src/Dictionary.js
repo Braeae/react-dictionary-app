@@ -4,7 +4,7 @@ import Results from "./Results";
 import "./Dictionary.css";
 
 function Dictionary() {
-  let [word, setWord] = useState(null);
+  let [word, setWord] = useState("laugh");
   let [results, setResults] = useState(null);
 
   function search(event) {
@@ -24,7 +24,7 @@ function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form className="Search-Form mt-4" onSubmit={search}>
+      <form className="Search-Form" onSubmit={search}>
         <input type="search" onChange={changeWord}></input>
       </form>
 
