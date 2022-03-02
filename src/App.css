@@ -27,7 +27,8 @@
 .App .container {
   align-self: center;
   border: 2px solid black;
-  width: 60%;
+  border-radius: 10px;
+  width: 80%;
   margin-top: 40px;
   padding: 0;
 }

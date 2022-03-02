@@ -1,19 +1,22 @@
 .Dictionary .Search-Form {
   background-color: #ff2c79;
+
   margin: 0 auto;
-  padding-top: 160px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   padding-left: 30px;
   padding-right: 30px;
   border-bottom-left-radius: 30%;
   border-bottom-right-radius: 30%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .Dictionary section {
   background: rgba(243, 241, 241, 0.726);
   border: 1px solid transparent;
   border-radius: 12px;
-  margin: 20px auto;
+  margin: 20px 4px;
   padding: 20px;
   box-shadow: 4px;
 }
@@ -26,4 +29,16 @@
   padding-right: 6px;
   outline: none;
   font-size: 20px;
+}
+
+.Dictionary .Title {
+  color: white;
+  font-family: Bosch-Display-Font !important;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Bosch-Display-Font";
+  src: url("./fonts/Bosch-Display-Font/OTF-File/Bosch.otf");
 }

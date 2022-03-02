@@ -8,6 +8,9 @@ function App() {
       <div className="container">
         <Dictionary />
       </div>
+      <p className="Info m-3">
+        This is an open-sourced project hosted on Netlify
+      </p>
     </div>
   );
 }
