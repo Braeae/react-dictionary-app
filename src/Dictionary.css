@@ -32,10 +32,11 @@
 }
 
 .Dictionary .Title {
-  color: white;
+  color: blanchedalmond;
   font-family: Bosch-Display-Font !important;
   font-size: 36px;
   font-weight: 500;
+  padding: 20px;
 }
 
 @font-face {
