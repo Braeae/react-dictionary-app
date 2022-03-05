@@ -1,6 +1,3 @@
-import React from "react";
-import bootstrap from "bootstrap";
-import { NavItem, NavLink, Navbar, NavbarBrand } from "react-bootstrap";
 import "./Navnav.css";
 
 function Navnav() {
