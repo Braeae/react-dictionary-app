@@ -49,7 +49,7 @@ function Dictionary() {
     return (
       <div className="Dictionary">
         <form className="Search-Form" onSubmit={startSearch}>
-          <p className="Title mb-4">SEARCHEE</p>
+          <p className="Title">SEARCHEE</p>
           <input
             type="search"
             onChange={changeWord}

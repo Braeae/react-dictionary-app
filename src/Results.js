@@ -11,7 +11,7 @@ function Results(props) {
     return (
       <div>
         <section>
-          <h2>{props.results.word}</h2>
+          <p className="Entry">{props.results.word}</p>
 
           {props.results.phonetics.map(function (phonetic, index) {
             return (

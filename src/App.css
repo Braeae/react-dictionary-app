@@ -32,3 +32,14 @@
   margin-top: 40px;
   padding: 0;
 }
+
+@media (max-width: 820px) {
+  .App .container {
+    align-self: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 40px;
+    padding: 0;
+  }
+}

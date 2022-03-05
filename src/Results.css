@@ -1,4 +1,11 @@
-h2 {
+.Entry {
   font-family: "Montserrat", sans-serif;
+  font-size: 36px;
   text-transform: capitalize;
+  margin-bottom: 10px;
+}
+@media (max-width: 820px) {
+  .Entry {
+    font-size: 28px;
+  }
 }
