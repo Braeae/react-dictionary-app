@@ -1,20 +1,23 @@
 import React from "react";
 import "./Dictionary.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faVolumeHigh } from "@fortawesome/free-solid-svg-icons";
 
 function Phonetic(props) {
   console.log(props.phonetic);
+  let iconStyle = { color: "black" };
 
-  if (props.phonetic.audio) {
+  if (props.phonetic.audio && props.phonetic.text) {
     return (
       <span className="Phonetic">
         <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
-          Listen{" "}
+          <FontAwesomeIcon icon={faVolumeHigh} size="lg" style={iconStyle} />
         </a>{" "}
-        <p>{props.phonetic.text}</p>
+        <p className="Phonetic-Text d-inline ms-3"> {props.phonetic.text} </p>
       </span>
     );
   } else {
-    return <p>{props.phonetic.text}</p>;
+    return null;
   }
 }
 

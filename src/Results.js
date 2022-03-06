@@ -15,9 +15,9 @@ function Results(props) {
 
           {props.results.phonetics.map(function (phonetic, index) {
             return (
-              <span key={index}>
+              <div key={index} className="mb-2">
                 <Phonetic phonetic={phonetic} />
-              </span>
+              </div>
             );
           })}
         </section>
