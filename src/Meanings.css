@@ -21,9 +21,11 @@
   .Definitions {
     color: black;
     font-family: "Nunito", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 0.5;
+    margin-left: 6px;
+    margin-right: 6px;
   }
   .Parts {
     font-family: "Montserrat", sans-serif;

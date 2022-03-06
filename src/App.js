@@ -8,8 +8,16 @@ function App() {
       <div className="container">
         <Dictionary />
       </div>
-      <p className="Info m-3">
-        This is an open-sourced project hosted on Netlify
+      <p className="AppInfo m-3">
+        <a
+          href="https://github.com/Braeae/react-weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          Open-source{" "}
+        </a>
+        project by Büşra © 2022
       </p>
     </div>
   );
