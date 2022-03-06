@@ -1,12 +1,10 @@
 import Dictionary from "./Dictionary";
-import Navnav from "./Navnav";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
-      <Navnav />
       <div className="container">
         <Dictionary />
       </div>
