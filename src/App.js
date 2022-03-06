@@ -14,9 +14,8 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          {" "}
-          Open-source{" "}
-        </a>
+          Open-source
+        </a>{" "}
         project by Büşra © 2022
       </p>
     </div>
