@@ -15,7 +15,7 @@ function App() {
           rel="noreferrer"
         >
           Open-source
-        </a>
+        </a>{" "}
         <a
           href="https://vibrant-kilby-54c1e7.netlify.app/"
           target="_blank"
