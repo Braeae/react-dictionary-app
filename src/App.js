@@ -15,8 +15,15 @@ function App() {
           rel="noreferrer"
         >
           Open-source
+        </a>
+        <a
+          href="https://vibrant-kilby-54c1e7.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          project
         </a>{" "}
-        project by Büşra © 2022
+        by Büşra © 2022
       </p>
     </div>
   );
